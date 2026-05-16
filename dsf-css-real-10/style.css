@@ -1,0 +1,218 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+@font-face
+{
+    font-family: 'destaque';
+    src: url(fontes/BebasNeue-Regular.ttf) format('opentype');
+    font-weight: normal;
+}
+
+:root
+{
+    --cor1: #CF4D3B;
+    --cor2: #b3564f;
+    --cor3: #77160f;
+    --cor4: #503E3D;
+    --cor5: #2e2928;
+
+    --fonte-destaque: 'destaque';
+    --fonte-padrao: arial, helvetica, sans-serif, verdana;
+    --font-h1: 'Holtwood One SC'
+}
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+background-color: var(--cor1);
+font-family: var(--fonte-padrao)
+}
+
+header 
+{
+    background-image: -moz-linear-gradient(to top, var(--cor5), var(--cor4) );
+    text-align: center;
+    height: 150px;
+
+}
+
+header > h1
+{
+    text-shadow: black 10px 8px 4px;
+    color: rgb(238, 238, 238);
+    font-family: var(--fonte-destaque);
+    font-size: 4.5em;
+    padding-top: 33px;
+} 
+header > p
+{
+    font-size: 1.2em;
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.575) 2px 2px 3px;
+}
+
+nav 
+{
+    background-color: var(--cor5);
+    padding: 8px;
+}
+
+nav a 
+{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+nav a:hover
+{
+    color: #b3564f;
+    font-size: 1.1em;
+    transition-duration: 150ms;
+    
+}
+
+nav a:active
+{
+    color: #b99c9a;
+    font-size: 1.3em;
+}
+
+main 
+{
+    background-color: white;
+    max-width: 800px;
+    min-width: 280px;
+    margin: auto;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+main p 
+{
+    line-height: 1.5em;
+    margin: 15px 0px;
+}
+
+main h1
+{
+    color: #e93325;
+    font-family: var(--font-h1);
+}
+main h2
+{
+    color: var(--cor4);
+    font-family: var(--font-h1);
+    background-image: -moz-linear-gradient(left, var(--cor1), transparent);
+    text-indent: 12px;
+}
+
+.pika 
+{
+    display: block;
+    margin: auto;
+}
+
+.ini
+{
+    margin: 30px 30px 0px 0px;
+}
+
+
+
+.sla:hover 
+{
+    width: 60px;
+    padding: 2px;
+    font-size: 1.2em;
+    transition-duration: 150ms;
+}
+
+
+.Fogo:hover 
+{
+    color: #7a0f07;
+    padding: 5px;
+}
+.agua:hover
+{
+    color: rgb(20, 124, 124);
+    padding-right: 5px;
+}
+.grama:hover
+{
+    
+    color: rgb(9, 100, 9);
+    padding-right: 18px ;
+}
+.video
+{
+    background-color: var(--cor4);
+    margin: 0px -20px 30px -20px;
+    position: relative;   
+    padding: 20px;
+    padding-bottom: 56.5%;
+}
+
+.video > iframe
+{
+position: absolute;
+top: 5%;
+left: 5%;
+width: 90%;
+height: 90%;
+}
+strong
+{
+    background-color: #e9322573;
+    padding: 2px;
+    border-radius: 4px;
+}
+strong:hover
+{
+    font-size: 1.1em;
+    transition-duration: 150ms;
+}
+
+main ul
+{
+    list-style-position: inside;
+}
+
+footer 
+{
+    background-image: linear-gradient(to right, var(--cor3), var(--cor5));
+    text-align: center;
+    padding: 5px;
+    margin: 30px 0px 0px 0px;
+}
+footer p
+{
+color: white;    
+}
+
+ul a
+{
+    text-decoration: none;
+    color: #2e2928;
+    font-weight:bolder ;
+}
+
+.mod a:hover
+{
+    background-color: #b3564f;
+    padding: 2px;
+    transition-duration: 150ms;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+
+.mod a:active
+{
+    font-size: 1.3em;
+    background-color: #ffffff;
+}
