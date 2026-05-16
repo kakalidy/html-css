@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+
+body {background-image: -moz-linear-gradient(to right, #29F039,#BDF030 ); font-family: Arial, Helvetica, sans-serif; font-size: 30px;}
+
+main {background-image: -moz-linear-gradient(to left, rgb(228, 195, 87) );
+width: 500px;
+padding: 20px;
+margin: auto;
+border-radius: 10px;
+box-shadow: 5px 5px  15px rgba(1, 88, 8, 0.411);
+
+}
+
+h2 { color: #21790f;}
+
